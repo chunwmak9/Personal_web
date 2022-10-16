@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Model(models.Model):
+    id = models.AutoField(primary_key=True)
     datetime = models.DateTimeField(auto_now_add=True)
     title = models.CharField(max_length= 50,help_text="e.g It is a happy day that I go to .......")
     content = models.TextField(max_length = 255)
