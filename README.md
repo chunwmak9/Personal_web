@@ -1,7 +1,7 @@
-<ins>Description</ins>
+<ins>Description</ins><br>
 It is my personal web server built with Django framework using Python. 
 <br>
-<ins>Sections</ins>
+<ins>Sections</ins><br>
 1. Home <br>
 2. Resume <br>
 3. Blog <br>
